@@ -42,6 +42,14 @@
     --fs-lg: 1.125rem;
     --fs-lx: 1.25rem;
     --fs-2xl: 2.5rem;
+
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-lx: 3rem;
+
+
+    --px-lg: 1.5rem;
+
 }
 
 html {
@@ -71,7 +79,7 @@ h1 {
 }
 
 h2 {
-    ont-size: var(--fs-lx);
+    font-size: var(--fs-lx);
 }
 
 h3 {
@@ -79,9 +87,10 @@ h3 {
 }
 
 /* 80*16 = 1280px  que é o tamanho da font do meu navegador definido pelo root */
-a{
+a {
     text-decoration: none;
-     color: inherit; /* Herda a cor do elemento pai */
+    color: inherit;
+    /* Herda a cor do elemento pai */
 }
 
 ul[role="list"] {
@@ -93,8 +102,15 @@ ul[role="list"] {
         --fs-lg: 2rem;
         --fs-lx: 3rem;
         --fs-2xl: 4rem;
+
+
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-lx: 5rem;
+
+        --px-lg: 2rem;
     }
 }
 
 /* Se o tamanho da tela for maior que 80em, ou seja,
- 1280px  então eu vou aplicar essas propriedades */ 
+ 1280px  então eu vou aplicar essas propriedades */
